@@ -1,0 +1,6 @@
+Caros alunos, a função mcrypt_encrypt() usada nesta aula foi depreciada no PHP 7.1
+Se ocorrer algum erro em seu código, mude-o para a função openssl_encrypt()
+Para mais informações, veja as Perguntas e Respostas desta aula
+Bons estudos :)
+
+Equipe Hcode
