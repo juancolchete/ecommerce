@@ -32,6 +32,7 @@ class Page
     $this->setData($this->options["data"]);
 
     if ($this->options["header"] == true)$this->tpl->draw("header");
+    
   }
 
   private function setData($data = array())
