@@ -1,4 +1,7 @@
 <?php
+use \juanudk\PageAdmin;
+use \juanudk\Model\User;
+
 $app->get("/admin/users", function(){
 
 	User::verifyLogin();
