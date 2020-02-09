@@ -2,6 +2,7 @@
 use \juanudk\Page;
 use \juanudk\Model\Product;
 use \juanudk\Model\Category;
+use \juanudk\Model\Cart;
 
 
 $app->get('/', function () {
@@ -54,6 +55,15 @@ $app->get("/products/:desurl", function($desurl){
 		'product'=>$product->getValues(),
 		'categories'=>$product->getCategories()
 	]);
+});
+
+$app->get("/cart",function(){
+
+	$cart = Cart::getFromSession();
+
+	$page = new Page();
+
+	$page->setTpl("cart");
 });
 
 ?>
