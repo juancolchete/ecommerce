@@ -1,0 +1,7 @@
+E aí pessoal, tudo bem?
+
+No minuto 05:13, use o método $user->update() ao invés de save(), para que os dados do usuário sejam atualizados e não crie um usuário novo
+
+Isso será explicado com mais detalhes nas próximas aulas
+
+Bons estudos a todos!
